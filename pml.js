@@ -45,7 +45,7 @@ var PoorManLens =  function() {
           newval = val(obj[cidx])
         } 
         if(Array.isArray(obj)) {
-          return obj.slice(0, cidx*1).concat(newval , obj.slice(cidx*1+1) )
+          return obj.slice(0, cidx*1).concat([newval], obj.slice(cidx*1+1) )
         } else {
           var newObj = {}
           newObj[cidx]= newval

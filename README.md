@@ -24,5 +24,6 @@
   var pml = PoorManLens
   console.log(pml.pget({'a':[{'b':2}]}, 'a.0'))
   console.log(pml.pset({'a':[{'b':2}]}, 'a.1', {'c':3}))
+  console.log(pml.pset([[[[1]]]], [0,0,0,0], function(x) {return x+11}))
 </script>  
 ```
