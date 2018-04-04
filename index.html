@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <body>
-<script type="text/javascript" src='index.js'></script>
+<script type="text/javascript" src='pml.js'></script>
+<script>
+var pml = PoorManLens 
+console.log(pml.pget({'a':[{'b':2}]}, 'a.0'))
+console.log(pml.pset({'a':[{'b':2}]}, 'a.1', {'c':3}))
+</script>
 </body>
 </html>

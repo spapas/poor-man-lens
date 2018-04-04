@@ -1,8 +1,8 @@
 {
   "name": "poor-man-lens",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A poor man's lens",
-  "main": "index.js",
+  "main": "pml.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
