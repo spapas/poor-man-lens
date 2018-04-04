@@ -1,0 +1,19 @@
+{
+  "name": "poor-man-lens",
+  "version": "1.0.0",
+  "description": "A poor man's lens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spapas/poor-man-lens.git"
+  },
+  "author": "Serafeim Papastefanos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spapas/poor-man-lens/issues"
+  },
+  "homepage": "https://github.com/spapas/poor-man-lens#readme"
+}
