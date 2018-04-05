@@ -1,6 +1,6 @@
 {
   "name": "poor-man-lens",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "A poor man's lens",
   "main": "pml.js",
   "scripts": {

@@ -2,7 +2,12 @@
 
 [![NPM](https://img.shields.io/npm/v/poor-man-lens.svg)](https://www.npmjs.org/package/poor-man-lens)
 
-## With require (node.js)
+A simple util to help you keep your objects immutable. Contains two functions:
+
+* ``pget(object, path)`` that will return the value of the object at that path - path could be an array of indeces or a string index in the form of 'a.b.c'
+* ``pset(object, path, value)`` that will set the value of the object at that path to value - path is as above, value can be either a value or a function that will be applied to the object's value at that index
+
+## Usage with require (node.js)
 
 ``` javascript
 > var pml = require('poor-man-lens')
@@ -17,7 +22,7 @@
 { a: [ { b: 4 } ] }
 ```
 
-## Within browser
+## Usage within browser
 ``` html
 <script type="text/javascript" src='pml.js'></script>
 <script>
