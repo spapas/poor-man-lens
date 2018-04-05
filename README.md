@@ -9,6 +9,10 @@ A simple util to help you keep your objects immutable. Contains two functions:
 
 ## Usage with require (node.js)
 
+```
+npm install poor-man-lens
+```
+
 ``` javascript
 > var pml = require('poor-man-lens')
 
